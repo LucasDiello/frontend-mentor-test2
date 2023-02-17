@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(222, 219, 218);
+    width: 90%;
+}
+
+
+.header{
+    /* border: 2px solid red; */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    width: auto;
+    height: 400px;
+    display: flex;
+}
+
+
+ .daniel{
+    background-color: rebeccapurple;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    flex:50%;
+    position: relative;
+    padding-right: 30px;
+    padding-left: 50px;
+    padding-top: 20px;
+} 
+
+.daniel h2{
+    position: relative;
+    color: white;
+    padding-top: 20px;
+    z-index: 2;
+    line-height: 30px;
+}
+
+.history1{
+    padding-top: 50px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.aspas{
+    position: absolute;
+    left: 450px;
+    bottom: 250px;
+    z-index: 1;
+}
+
+.aspas img {
+    height: 150px;
+}
+
+
+
+.jonathan{
+    background-color: rgb(74, 74, 111);
+    border-radius: 20px;
+    flex:25%;
+    /* border: solid 2px green; */
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-right: 40px;
+    padding-left: 50px;
+    padding-top: 20px;
+    
+}
+
+.jonathan img, .daniel img, .kira img, .jeanette img, .patrick img{
+    float: left;
+    border-radius: 100%;
+    padding-right: 20px;
+}
+
+.jonathan h3, .daniel h3, .patrick h3{
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    
+}
+
+.jonathan p, .daniel p, .kira p, .jeanette p, .patrick p{ 
+    color: rgb(132, 127, 127);
+    padding-bottom: 20px;
+}
+
+
+.jonathan h2 {
+    font-size: 25px;
+    padding-top: 30px;
+    color: white;
+    line-height: 30px;
+}
+
+.history2{
+    padding-top: 30px;
+    font-weight: 700;
+}
+
+.kira{
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    flex:25%;
+    /* border: solid 2px pink; */
+    height: 780px;
+    padding-right: 40px;
+    padding-left: 50px;
+    padding-top:15px;
+}
+
+.kira , .jeanette h3{
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+}
+
+
+.kira h2{
+    color: rgb(59, 59, 59);
+    font-size: 25px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.history3{
+    padding-top: 30px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+
+.pessoas2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 10%;
+    height: 380px;
+    padding-top: 40px;
+    /* background-color: brown; */
+}
+
+
+.jeanette{
+    background-color: white;
+    border-radius: 20px;
+/* border: 2px solid blue; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.jeanette h2{
+    padding-top: 20px;
+    line-height: 27px;
+}
+
+.history5{
+    padding-top: 40px;
+    font-weight: 700;
+    
+}
+
+.patrick{
+    background-color: rgb(52, 52, 52);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 40px;
+    flex: 100%;
+    /* border: 2px solid yellow; */
+    margin-right: 41%;
+    margin-left: 30px;
+}
+
+.patrick h2{
+    color: white;
+    padding-top: 20px;
+    line-height: 27px;
+}
+
+.history4{
+    padding-top:40px ;
+}
